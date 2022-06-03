@@ -1,7 +1,6 @@
 ﻿#include <iostream>
 #include <Windows.h>
 #include <clocale>
-#include <vector>
 using namespace std;
 
 int err_n1() {
