@@ -3,7 +3,7 @@
 #include <clocale>
 using namespace std;
 
-int err_n1() {
+int err_n() {
 	int m, ival = 1;
 	cin >> m;
 	while (ival == 1) {
@@ -78,9 +78,8 @@ int main() {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 
-	int n;
 	cout << "Введите количество ребер в графе: " << endl;
-	n = err_n1();
+	int n = err_n();
 
 	int** edges = new int* [n];
 	for (int i = 0; i < n; i++)
